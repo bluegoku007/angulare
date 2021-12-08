@@ -1,0 +1,14 @@
+.e{
+    background-color: black;
+    height: 55px;
+    text-align: center;
+    }
+    a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 35px;
+        margin-right: 5%;
+    }
+    a:hover{
+        color: greenyellow;
+    }

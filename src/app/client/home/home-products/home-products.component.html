@@ -1,0 +1,6 @@
+{{title}}
+<h4 *ngFor="let prod of produits"><img [src]=prod.image (click)="onaffiche(prod)">
+    <br>{{prod.nom}} prix: {{prod.prix}} </h4>
+<div class="d">
+<app-home-product-detail [msg]="ch" *ngIf="ch"></app-home-product-detail>
+</div>

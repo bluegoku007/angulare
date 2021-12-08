@@ -1,0 +1,16 @@
+img{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.m{
+    background-color: coral;
+}
+body{
+    background-color: coral;
+}

@@ -1,0 +1,18 @@
+<form [formGroup]="productAddForm"  (ngSubmit)="onAjouter()">
+    <label>nom produit</label><br>
+    <input type="text" formControlName="nameControl" this.productAddForm.controls.nameControl.value placeholder="entrez le nom" size="35"><br>
+    <label>prix</label><br>
+    <input type="text" formControlName="prixControl" this.productAddForm.controls.prixControl.value placeholder="entrez le prix" size="35"><br>
+    <label>description</label><br>
+    <input type="text" formControlName="descriptionControl" placeholder="entrez la description" size="35"><br>
+    <label>image</label><input type="file" formControlName="imageControl">
+    <br>
+    <select name="categorie" id="cag" formControlName="categorieControl">
+        <option value="categoriee">categorie</option>
+        <option value="t-shirt">t-shirts</option>
+        <option value="shoes">shoes</option>
+        <option value="hoodie">hoodie</option>
+      </select>
+      <br><br>
+      <button type="submit">ajouter</button>
+</form>
